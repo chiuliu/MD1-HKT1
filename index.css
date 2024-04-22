@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+/* --------------------------------- *** Header *** --------------------------------- */
+
+/* --------------------- Navbar --------------------- */
+.navbar-header{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 50px;
+    margin-top: 15px;
+}
+.nav-header-left{
+    display: flex;
+    align-items: center;
+}
+.ul-header-center{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.nav-header-right{
+    border: 1px solid rgb(14, 158, 158);
+    color:  rgb(14, 158, 158);
+    background-color: white;
+    padding: 3px;
+
+}
+/* --------------------- Section Hero --------------------- */
+.sectionHero{
+    width: 100%;
+    height: 700px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 50px;
+    background-image: url("https://img.meta.com.vn/Data/image/2021/09/30/background-la-gi-anh-background-dep-9.png");
+    border-bottom-left-radius: 50% 5%;
+    border-bottom-right-radius: 50% 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sectionHero-left{
+    text-align: center;
+    align-items: center;
+    width: 50%;
+}
+.sectionHero-right{
+    width: 50%;
+}
+.sectionHero .sectionHero-left .sectionHero-name{
+    color: #9ca1a8;
+    font-size: 20px;
+    
+}
+.sectionHero .sectionHero-left .sectionHero-pr5{
+    margin-top: 20px;
+    font-size: 50px; 
+    font-weight: bold;
+}
+.downloadcv{
+    color: white;
+    background-color: #55b9d1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* --------------------------------- *** Main *** --------------------------------- */
+/* --------------------- Personal Detils --------------------- */
+.main-container .personalDetils .div-personal{
+    /* background-color: #55b9d1; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+.main-container .personalDetils .div-personal .div-personal-left{
+    width: 50%;
+    /* background-color: pink; */
+    text-align:left;
+    padding: 50px 100px;
+
+    
+}
+.main-container .personalDetils .div-personal .div-personal-left strong{
+    display: inline-block;
+    border-bottom: 3px solid yellow;
+    margin-bottom: 7px;
+}
+.main-container .personalDetils .div-personal .div-personal-left p{
+    color: #3F4C75;
+    margin-bottom: 7px;
+}
+.main-container .personalDetils .div-personal .div-personal-right{
+    width: 50%;
+    /* background-color: yellow; */
+}
+.main-container .personalDetils .div-personal .div-personal-right .div-personalChild{
+    margin-top: 13px;
+    font-size: small;
+}
+.main-container .personalDetils .div-personal .div-personal-right .div-personalChild .personalId{
+    font-weight: bold;
+}
+.main-container .personalDetils .div-personal .div-personal-right .div-personalChild .personalInfor{
+    color: #8595C2;
+}
+
+/* --------------------- Section Hero --------------------- */
+.div-sectionHero    .div-sectionHero-top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+    gap: 30px;
+    /* gap: 10px; */
+        
+}
+.div-sectionHero    .div-sectionHero-top .logo-sectionHero{
+    /* gap: 10px; */
+    display: flex;
+    width: 100%;
+    box-shadow: 0px 23px 28px -12px rgba(0,0,0,0.1); 
+    padding: 16px;
+
+} 
+.div-sectionHero    .div-sectionHero-top .logo-sectionHero img{
+    width: 55px;    
+}
+.div-sectionHero    .div-sectionHero-top .logo-sectionHero .logo-infor{
+    width: 50%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+    margin-left: 10px;
+    
+    /* padding: 30px; */
+    
+    /* align-items: center; */
+}
+.div-sectionHero    .div-sectionHero-top .logo-sectionHero .logo-infor p{
+    font-size: smaller;
+}
+
+
+.div-sectionHero    .div-sectionHero-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+    gap: 50px;
+        
+}
+.div-sectionHero    .div-sectionHero-bottom .logo-sectionHero{
+    
+    display: flex;
+    width: 100%;
+    box-shadow: 0px 23px 28px -12px rgba(0,0,0,0.1); 
+    padding: 16px;
+    width: 162px;
+    height: 94px;
+    
+    
+
+} 
+.div-sectionHero    .div-sectionHero-bottom .logo-sectionHero img{
+    width: 55px;    
+}
+.div-sectionHero    .div-sectionHero-bottom .logo-sectionHero .logo-infor{
+    width: 50%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+    margin-left: 10px;
+    
+    /* padding: 10px; */
+    
+    /* align-items: center; */
+}
+.div-sectionHero    .div-sectionHero-bottom .logo-sectionHero .logo-infor p{
+    font-size: smaller;
+}
+.nodejsIcon{
+    align-items: center;
+}
+
+/* --------------------- Section My Projects --------------------- */
+
+.main-container .projects-container{
+    text-align: center;
+}
+.main-container .projects-container .headerProject{
+    margin-top: 50px;
+}
+
+.main-container .projects-container .headerProject .workProject{
+    color: #658b70;
+    background-color: #F0F9F1;
+    padding: 1px 8px;
+}
+
+.main-container .projects-container .headerProject h2{
+    margin: 15px 0;
+
+}
+
+ .experiencesProject{
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.main-container .allProjects .anyProject-container{
+    display: flex;
+}
+
+
+/* --------------------------------- *** Footer *** --------------------------------- */
+footer{
+    background-color: #0E46A3;
+  }
+  .backgroud{
+    width: 100%;
+    height: 200px;
+    display: block;
+    background-color: #DFF5FF;
+    border-bottom-left-radius: 50% 8%;
+    border-bottom-right-radius: 50% 8%;
+  }
+  .footer{
+    /* background-color: red; */
+    display: flex;
+    padding: 60px 7%;
+  }
+  .footer-left{
+    /* background-color: blue; */
+    width: 40%;
+  }
+  .footer-left .footer-logo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .footer-left .footer-logo .img-logo img{
+    width: 20px;
+  }
+  .footer-left .footer-logo h1{
+   font-size: 17px;
+   text-transform: uppercase;
+   margin-left: 2px;
+   color: #fff;
+   font-weight: 500;
+  }
+  .footer-left p{
+    margin-top: 24px;
+    line-height: 1.8;
+    color: #F6F5F2;
+    font-weight: 100;
+  }
+  .footer-left .main-icon{
+    margin-top: 20px;
+  }
+  .footer-left .main-icon i{
+    font-size: 20px;
+    margin-left: 4px;
+  }
+  .footer-right{
+    /* background-color: yellow; */
+    width: 60%;
+    display: flex;
+    justify-content:space-between ;
+    margin-left: 150px;
+  }
+  .footer-right .footer-text ul{
+    list-style: none;
+  }
+  .footer-right .footer-text ul li{
+    margin-bottom: 20px;
+    color: #F6F5F2;
+    text-transform: capitalize;
+  }
+  .footer-right .footer-text ul li:nth-child(1){
+    color: #1E0342;
+    font-weight: 700;
+  }
+footer .line{
+    width: 100%;
+    height: 1px;
+    background-color: #F6F5F2;
+    opacity: 0.1;
+  }
+footer .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 7%;
+    text-transform: capitalize;
+}
+footer .footer-bottom p{
+    color: #F6F5F2;
+    /* opacity: 0.5; */
+}
+footer .footer-bottom p i{
+    color: red;
+    opacity: 1;
+}
+footer .footer-bottom span{
+    color: #67C6E3;
+    /* opacity: 0.5; */
+}
+footer .footer-bottom span i{
+    font-size: 8px;
+    color: red;
+    position: absolute;
+    /* margin-top: 60px; */
+}
+
+
+
